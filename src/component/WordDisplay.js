@@ -26,7 +26,7 @@ const WordDisplay = ({ wordOptions, letterList, changeLetters, getRandomWord, cu
                     
                     {/* if the user's backronym is complete: */}
                     {chosenWords.length === letterList.length && chosenWords.length > 0 
-                        ? <h2 className="loadHeight">Backcronym completed!</h2>
+                        ? <h2 className="loadHeight">Backronym completed!</h2>
                         : isLoading 
                             ? <div className="loadHeight">
                                 < BeatLoader color={"#81003C"} loading={isLoading} size={20} css={override}/>  
