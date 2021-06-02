@@ -1,6 +1,6 @@
 # Backronym Generator
 
-This React/API web application was built collaboratively in a small group as per client's requests. 
+This React web application was built collaboratively as an assignment for Juno College's web development bootcamp. 
 
 
 ## Project Description
